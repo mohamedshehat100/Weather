@@ -1,0 +1,106 @@
+body
+{
+    background-color: rgb(30, 32, 43);
+}
+
+.navbar{
+    background-color: #1E202B;
+}
+
+.navbar .container-fluid .nav-logo,.collapse a{
+    
+    color:white !important;
+}
+
+.navbar-brand{
+    display: flex;
+    width: 30%;
+    margin: auto;
+     
+}
+
+.nav-logo{
+    padding-left: 12px;
+    font-size: 12px; 
+    text-align: center;
+}
+
+.logo-img
+{
+    width: 80px;
+    height: 40px;
+}
+
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    color:#009ad8;
+  }
+
+  .nav-link.active,
+  .nav-link:hover {
+    border-color: #009ad8;
+    color:#009ad8;
+
+  }
+
+  .nav-link + .nav-link {
+    margin-left: 10px;
+  }
+
+  .custom-input {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+
+.small-fs
+{
+    font-size: 10px;
+}
+
+.fs-6
+{
+    font-size: 12px;
+}
+
+.app-container
+{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.bg-main-color
+{
+    background-color: rgba(30, 32, 43, 0.905);
+}
+
+.bg-sec-color
+{
+    background-color:#262936d1;
+}
+
+.fs-big
+{
+    font-size: 84px;
+    font-weight: bolder;
+}
+
+.footer-icons
+{
+    width: 20px;
+    height: 20px;
+}
+
+.text-light-blue
+{
+    color:#009ad8;
+}
